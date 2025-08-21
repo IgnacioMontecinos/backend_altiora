@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altiora - Agencia de Inteligencia Artificial y Desarrollo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="nav-wrap">
+    <div class="container nav">
+      <div class="brand">
+        <img src="assets/triangulo-altiora.png" alt="Altiora Logo" class="brand-logo">
+        <div class="brand-name"><span>Altiora</span></div>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#mision">Misión</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#contacto" class="btn btn-sm">Contacto</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1><span class="gradient">Innovación</span> en IA, Automatización y Desarrollo</h1>
+        <p>En Altiora transformamos tu negocio con soluciones de inteligencia artificial, automatización de procesos, desarrollo web y aplicaciones personalizadas.</p>
+        <div class="hero-cta">
+          <a href="#contacto" class="btn">Solicita una Consulta</a>
+          <a href="#servicios" class="btn ghost">Ver Servicios</a>
+        </div>
+      </div>
+      <!-- ANIMACIÓN DE NODOS -->
+      <div class="hero-media">
+        <canvas id="networkCanvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORTE BLANCO -->
+  <div class="section-divider"></div>
+
+  <!-- MISIÓN -->
+  <section id="mision" class="section mission">
+    <div class="container">
+      <h2>Nuestra Misión</h2>
+      <p class="section-lead">
+        Hacer crecer las pequeñas y medianas pymes para aportar al desarrollo de la economía local, nacional y mundial.
+      </p>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section id="impacto" class="section impact">
+    <div class="container cards">
+      <div class="card eficiencia-card">
+        <h3>+40% Eficiencia</h3>
+        <p>Mejora la eficiencia de tu Pyme con nuestras soluciones inteligentes.</p>
+      </div>
+      <div class="card eficiencia-card">
+        <h3>Mayor Retorno</h3>
+        <p>La inversión en nuestros servicios genera beneficios a corto y largo plazo.</p>
+      </div>
+      <div class="card eficiencia-card">
+        <h3>-60% Tiempo</h3>
+        <p>Reduce el tiempo en tareas repetitivas para que te dediques a hacer crecer tu negocio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <p class="section-lead">Soluciones personalizadas para impulsar tu negocio al siguiente nivel</p>
+      <div class="snap">
+        <div class="snap-item card"><h3>Marketing con IA</h3><p>Generación de videos, imágenes y contenido para tu marca.</p></div>
+        <div class="snap-item card"><h3>Automatización</h3><p>Implementación de bots y flujos automáticos que ahorran tiempo.</p></div>
+        <div class="snap-item card"><h3>Desarrollo Web</h3><p>Sitios modernos, rápidos y responsivos.</p></div>
+        <div class="snap-item card"><h3>Aplicaciones</h3><p>Apps móviles y de escritorio personalizadas.</p></div>
+        <div class="snap-item card"><h3>Chatbots</h3><p>Atiende a tus clientes 24/7 con asistentes virtuales inteligentes.</p></div>
+        <div class="snap-item card"><h3>Bases de Datos</h3><p>Gestión y optimización de datos para decisiones estratégicas.</p></div>
+        <div class="snap-item card"><h3>Consultoría Especializada</h3><p>Asesoría experta en digitalización y escalamiento empresarial.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Contáctanos</h2>
+        <p class="section-lead">Hablemos sobre cómo podemos ayudarte a innovar.</p>
+      </div>
+      <form class="form" id="contactForm">
+        <label>Nombre:
+          <input type="text" name="nombre" required>
+        </label>
+        <label>Email:
+          <input type="email" name="email" required>
+        </label>
+        <label>Mensaje:
+          <textarea name="mensaje" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+        <div class="form-status"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="f-brand">
+        <img src="assets/logo-altiora.png" alt="Altiora Logo" class="brand-logo">
+        <div>Altiora</div>
+      </div>
+      <ul class="f-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#mision">Misión</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+      </ul>
+      <div class="f-legal">
+        <span>© 2025 Altiora</span>
+        <a href="#">Privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
